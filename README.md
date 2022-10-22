@@ -1,4 +1,4 @@
-# MusimNeNc
+# MultiSimNeNc
 MultiSimNeNc is a novel network-based method for identifying modules in various types of networks by integrating network representation learning (NRL) and clustering algorithms.
 
 ## Introduction
