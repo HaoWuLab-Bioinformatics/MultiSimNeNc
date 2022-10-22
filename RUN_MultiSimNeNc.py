@@ -58,7 +58,7 @@ adj_matrix, true_lables_list = read_gml_file_to_graph(gml_file, "id","weight","c
 
 print("Actual number of modules:",len(set(true_lables_list)))
 print("\n")
-print("-------------------------------------RUN MusimNeNc------------------------------")
+print("-------------------------------------RUN MultiSimNeNc------------------------------")
 
 model=MultiSimNeNc(adj_matrix,2,32,0,5)
 Best_N,GMM_pre_lables=model.fit()
