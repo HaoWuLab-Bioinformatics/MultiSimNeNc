@@ -15,6 +15,14 @@ In particular, the parameter dim must not be larger than the number of network n
 The RUN_MultiSimNeNC.py is a sample program.Can be run directly.
 
 ## Dependency
+python 3.8  
+numpy 1.22
+networkx  2.3
+scipy  1.8.0
+scikit-learn  1.0.2
 
+## Usage
+` python RUN_MultiSimNeNC.py `
+Module identification
 
 
