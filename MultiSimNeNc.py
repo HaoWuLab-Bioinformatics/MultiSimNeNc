@@ -1,15 +1,10 @@
-
-import pandas as pd
 from sklearn import preprocessing
 from scipy.stats import kendalltau
-from igraph import *
 from sklearn.decomposition import NMF
 from sklearn import mixture
-from igraph import *
 import numpy as np
 from sklearn import metrics
-from sklearn.metrics.cluster import adjusted_rand_score
-from munkres import Munkres
+
 
 
 class MultiSimNeNc():
