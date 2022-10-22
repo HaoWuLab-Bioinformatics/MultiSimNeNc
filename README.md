@@ -9,7 +9,9 @@ MultiSimNeNc integrate the two fields of network representation learning (NRL) a
 ## Overview
 The DATA dataset contains four network.where Karate and Pollbooks are unweighted graphs; Wine and Butterfly are fully weighted graphs.
 The MultiSimNeNc.py is the proposed model of this paper. we have encapsulated it as a class, which can be called directly. However, it is necessary to understand the meaning of the parameters and to set the appropriate functions for the different networks. In particular, the parameter dim must not be larger than the number of network nodes.
-The RUN_MultiSimNeNC.py is an example.
+The RUN_MultiSimNeNC.py is a sample program.Can be run directly.
+
+## Dependency
 
 
 
