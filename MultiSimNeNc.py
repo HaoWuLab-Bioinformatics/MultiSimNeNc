@@ -98,7 +98,7 @@ class MultiSimNeNc():
         if self.KNN_K == 0:
             convolve_matrix = self.adj_matrix
         else:
-            # 针对完全图，若直接进行全图卷积，则会导致网络结构信息获取不佳，此时可以利用其KNN矩阵来进行图卷积获取结构信息
+            # For the complete graph, if the full graph convolution is directly performed, the network structure information will be poorly obtained. At this time, the KNN matrix can be used to perform the graph convolution to obtain the structural information.
             convolve_matrix = self.k_nearest_neighbors()
 
         convolve_matrix[np.eye(len(convolve_matrix), dtype=bool)] = 1
